@@ -1,85 +1,61 @@
-# JS Frameworks Course Assignment
+# The Works of Shakespeare
 
-## Brief
+![image](https://user-images.githubusercontent.com/52622303/164316813-4b12d99f-aeb7-4069-85cf-e72b3a50ac99.png)
 
-Create either a new React or Next.js app in this repo.
+A simple overview of the use/purpose of the project.
 
-For the login functionality, use either a Wordpress installation with the <a href="https://wordpress.org/plugins/jwt-authentication-for-wp-rest-api/" target="_blank">JWT plugin from Module 3</a> installed, or a Strapi installation. Do not add either of these to your repo. Your API should remain a separate project. The markers will use their own installations when marking.
+## Description
 
-You can use either a REST or GraphQL API for the API calls.
+This projects looks at finding, setting up and using a publicly hosted API. The API is used to populate the site "The Works of Shakespeare" with content.
 
----
+Pages included in the project:
 
-## Assessment
+- "/"
+- "/detail/:param"
+- "/contact"
+- "/login"
+- "/admin"
 
-Please provide your login credentials for assessment.
+## Built With
 
-I have used a local version of wordpress for this assignment, and so my login details will not be useful to you here. Adding them for my own purpose.
+You can list a the tech stack that you've used over here
 
--   username: testuser
--   password: p09
+- [React.js](https://reactjs.org/)
+- [Bootstrap](https://getbootstrap.com)
+- Axios
+- Yup
+- Strapi
 
-## Level 1
+## Getting Started
 
-Your app should have the following paths:
+### Installing
 
--   "/"
--   "/detail/:param"
--   "/contact"
--   "/login"
--   "/admin"
+You can get the project started by doing the following steps:
 
-The admin path won't appear in your navigation.
+1. Clone the repo:
 
-Use reusable components where appropriate and pay attention to how the components are arranged.
+```bash
+git clone git@github.com:linelind/js-frameworks-ca-linelind.git
+```
 
-### Home
+2. Install the dependencies:
 
-Find an API that returns at least:
+```
+npm install
+```
 
--   an array of items
--   a single item retrieved by a parameter (id, name, slug, etc)
+### Running
 
-If you are using Next you can also hard-code json and return it from API routes created in `pages/api/*`.
+To run the app, run the following commands:
 
-You can use your own Wordpress or Strapi or any other API that you have created for these calls but it must be publically hosted - it must not be running on your localhost.
+```bash
+npm run start
+```
 
-Display at least 2 properties from each result.
+## Contact
 
-Each result should link to the detail page, passing a parameter in the URL.
+If you want to contact me, I can be contacted through [my LinkedIn page](https://www.linkedin.com/in/line-lindheim-t%C3%B8resby-6667a812b/)
 
-### Detail
+## Acknowledgments
 
-Retrieve the parameter from the URL and use it in an API call to fetch one item.
-
-Display at least 3 properties from the item.
-
-### Contact
-
-Create a form with the following inputs and validation:
-
--   First name - required, minimum 3 characters
--   Last name - required, minimum 4 characters
--   Email - required, must be in a valid email format
--   Subject - required, this must be a select box with at least 2 options
--   Message - required, minimum 10 characters.
-
-### Login
-
-Create a form with username/email and password fields. The inputs should have the necessary validation for a login form (not a registration form).
-
-The form should make a login request to either a Wordpress API with the JWT plugin installed or a Strapi API. If the login is successful redirect the user to the admin route.
-
-If the login is unsuccessful display a message above the form.
-
-### Admin
-
-This page will simply display an "Admin" heading.
-
----
-
-## Level 2
-
-Add a favourite button/icon component to each result on your home page. Clicking this button will toggle the result in/out of a favourites array.
-
-Add a "/favourites" path to your routes. This page will display all the items currently in the favourites array.
+The content for this project is based on course lessons, and the teaching material from the tutors have been very helpful to reference back to through the project.
