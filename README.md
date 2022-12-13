@@ -2,11 +2,11 @@
 
 <img src="/src/assets/portfolio_shakespeare.png" alt="Screenshot from The Works of Shakespeare site" title="Screenshot from The Works of Shakespeare site">
 
-A simple overview of the use/purpose of the project.
+This projects looks at finding, setting up and using a publicly hosted API. The API is used to populate the site "The Works of Shakespeare" with content.
 
 ## Description
 
-This projects looks at finding, setting up and using a publicly hosted API. The API is used to populate the site "The Works of Shakespeare" with content.
+This project was built using React and Bootstrap. This project was the first project we did using routes in React, and also the first project we did using yup to validate the form. The site consists of 5 pages, all built and populated based on the brief given for the project.
 
 Pages included in the project:
 
@@ -55,7 +55,3 @@ npm run start
 ## Contact
 
 If you want to contact me, I can be contacted through [my LinkedIn page](https://www.linkedin.com/in/line-lindheim-t%C3%B8resby-6667a812b/)
-
-## Acknowledgments
-
-The content for this project is based on course lessons, and the teaching material from the tutors have been very helpful to reference back to through the project.
