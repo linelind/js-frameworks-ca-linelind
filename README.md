@@ -18,13 +18,13 @@ Pages included in the project:
 
 ## Built With
 
-You can list a the tech stack that you've used over here
+This project was created using the following technologies:
 
-- [React.js](https://reactjs.org/)
-- [Bootstrap](https://getbootstrap.com)
+- React.js
+- Bootstrap
 - Axios
 - Yup
-- [Strapi](https://strapi.io/)
+- Strapi
 
 ## Getting Started
 
@@ -54,4 +54,6 @@ npm run start
 
 ## Contact
 
-If you want to contact me, I can be contacted through [my LinkedIn page](https://www.linkedin.com/in/line-lindheim-t%C3%B8resby-6667a812b/)
+If you want to get in touch, please find me on LinkedIn.
+
+[My LinkedIn Profile](https://www.linkedin.com/in/line-lindheim-t%C3%B8resby-6667a812b/)
