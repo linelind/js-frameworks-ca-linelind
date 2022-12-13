@@ -1,0 +1,133 @@
+body {
+  margin: 0px;
+  background: #f8f9f1;
+  font-family: "Special Elite", cursive;
+  color: #0d090a;
+}
+
+.navbar {
+  padding: 20px;
+}
+
+.breadcrumb {
+  margin-top: 25px;
+}
+
+.main-brand-logo {
+  text-decoration: none;
+}
+
+h1 {
+  margin-top: 50px;
+}
+
+a {
+  color: #521945;
+}
+
+.formContainer {
+  max-width: 500px;
+}
+
+.playContainer {
+  max-width: 600px;
+}
+
+.formContainer,
+.playContainer {
+  margin: auto;
+}
+
+form {
+  max-width: 500px;
+}
+
+form,
+label {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 15px;
+}
+
+input,
+textarea,
+select {
+  padding: 5px;
+}
+
+label span {
+  color: darkred;
+  font-size: 12px;
+}
+
+form button {
+  margin-top: 40px;
+}
+
+.playItem {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  padding-left: 0;
+  margin-top: 20px;
+}
+
+.playItem li {
+  list-style: none;
+  box-shadow: 2px 2px 7px lightgrey;
+  border-radius: 6px;
+  padding: 15px;
+}
+
+.detailYear {
+  margin-top: 30px;
+  margin-bottom: 25px;
+}
+
+.cta {
+  border: none;
+  border-radius: 2px;
+  padding: 5px;
+  width: 150px;
+  background-color: #521945;
+  color: #f8f9f1;
+}
+
+.cta-logout {
+  width: 80px;
+  padding: 4px;
+}
+
+#favButton {
+  float: right;
+  padding: 2px 4px;
+  width: 100px;
+}
+
+@media (max-width: 992px) {
+  .cta-logout {
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 992px) {
+  .cta-logout {
+    margin-top: 20px;
+    background-color: #f8f9f1;
+    color: #0d090a;
+  }
+}
+
+@media (min-width: 991px) {
+  .cta-logout {
+    margin-left: 40px;
+    background-color: #212529;
+  }
+
+  .navLinksContainer {
+    margin-left: 40px;
+  }
+}
