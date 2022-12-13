@@ -1,6 +1,6 @@
 # The Works of Shakespeare
 
-![image](https://user-images.githubusercontent.com/52622303/164316813-4b12d99f-aeb7-4069-85cf-e72b3a50ac99.png)
+<img src="/src/assets/portfolio_shakespeare.png" alt="Screenshot from The Works of Shakespeare site" title="Screenshot from The Works of Shakespeare site">
 
 A simple overview of the use/purpose of the project.
 
@@ -24,7 +24,7 @@ You can list a the tech stack that you've used over here
 - [Bootstrap](https://getbootstrap.com)
 - Axios
 - Yup
-- Strapi
+- [Strapi](https://strapi.io/)
 
 ## Getting Started
 
